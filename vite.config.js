@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '1.Todo_list-using-react',
   plugins: [react(),tailwindcss()],
 })
